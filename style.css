@@ -1,0 +1,82 @@
+:root {
+  --uts-green: #BDD530;
+  --uts-purple: #652C90;
+  --uts-blue: #00ADEF;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* General */
+.bg-uts {
+  background: var(--uts-green);
+}
+.border-uts {
+  border: 1px solid var(--uts-blue);
+}
+.btn-uts {
+  background: var(--uts-green);
+  color: white;
+}
+/* Nav */
+.img-nav {
+  width: 40px;
+  height: 40px;
+}
+/* Hero */
+.hero {
+  background: url('img/hero.jpg');
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.hero img {
+  max-width: 400px;
+  height: 200px;
+  margin: 40px auto;
+}
+/* Events */
+.card.border-uts {
+  margin: auto 0;
+}
+.niveles {
+  background: #fafafa;
+}
+.jurados {
+  background: var(--uts-purple);
+}
+.jurados img {
+  border: 4px solid white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+/* Event 1 */
+
+/* Event 2 */
+.niveles img {
+  border: 4px solid var(--uts-green);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+/* Footer */
+.footer {
+  background: var(--uts-green);
+}
+.footer p {
+  margin: 0;
+  padding: 1rem;
+}
+.footer p a {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 426px) {
+  .hero img {
+    max-width: 200px;
+    height: 100px;
+  }
+}
