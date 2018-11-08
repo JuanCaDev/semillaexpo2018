@@ -69,6 +69,7 @@
 .footer p {
   margin: 0;
   padding: 1rem;
+  color: white;
 }
 .footer p a {
   font-weight: bold;
